@@ -1,0 +1,51 @@
+
+body{
+    background-image: url("../../resources/fondo1.jpg");
+}
+
+.container{
+    height: 105vh;
+    box-sizing: border-box;
+}
+.imageOptionsGame{
+    width: 18vh;
+}
+.containerTitle{
+    height: 10vh;
+    margin-top: 5vh;
+}
+.textGame{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0 , 0.15);
+    background: rgba( 255, 255, 255, 0.25);
+    border-radius: 10px;
+    backdrop-filter: blur( 2px);
+}
+.containerScore{
+    height: 25vh;
+    margin-top: 5vh;
+}
+.containerInterfaceGame{
+    height: 50vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scoreNames{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#defaultOptionsUser{
+    display: flex;
+    justify-content: space-between;
+}
+.scoreStatus{
+    width: 50vh;
+    text-align: center;
+}
